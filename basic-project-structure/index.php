@@ -12,7 +12,7 @@
 <body>
 	<?php
 	Kasztan::view("ExampleView");
-	Kasztan::component("ExampleComponent");
+	Kasztan::component("ExampleComponent", ["kasztanphp"]);
 	?>
 
 	<iframe src="<?php Kasztan::asset("ExampleAsset.html") ?>" frameborder="0"></iframe>
